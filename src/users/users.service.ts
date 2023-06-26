@@ -23,8 +23,8 @@ export class UsersService {
     return this.userModel.findById(id).select('-senha');
   }
 
-  findUser(nome: string) {
-    return this.userModel.findOne({ nome: nome });
+  findUser(email: string) {
+    return this.userModel.findOne({ email: email });
   }
 
   update(id: string, updateUserDto: UpdateUserDto) {
