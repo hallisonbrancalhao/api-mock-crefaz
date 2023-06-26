@@ -1,6 +1,6 @@
-# API Documentation - CRUD de Usuários e Cursos com JWT
+# API Documentation - Authentication Users
 
-Esta documentação descreve os endpoints e as operações disponíveis na API de CRUD de Usuários e Cursos com autenticação JWT.
+Esta documentação descreve os endpoints e as operações disponíveis na API de CRUD de Usuários com autenticação JWT.
 
 ## Autenticação
 
